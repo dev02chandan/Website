@@ -10,8 +10,7 @@
 </head>
 
 <body>
-
-    <div id="greeting-popup">Radhe Radhe</div>
+    <div id="greeting-popup"><span class="text">Radhe Radhe</span></div>
     <div id="overlay"></div>
 
     <header>
@@ -36,20 +35,35 @@
         <section id="about">
             <div class="container">
                 <h2>About Me</h2>
-                <p>I'm Dev Chandan, a Bachelor of Technology student in Artificial Intelligence. My knack for
-                    mathematics and coding fuels my eagerness to learn and explore. My goal is to contribute
-                    meaningfully and innovate in the dynamic tech realm.</p>
+                <p>I'm Dev Chandan, a Bachelor of Technology student specializing in Artificial Intelligence at NMIMS
+                    with a CGPA of 3.93. My journey is fueled by a deep passion for mathematics and coding, and I aim to
+                    contribute innovatively to the tech industry with a commitment to ethical AI and open-source
+                    collaboration.</p>
             </div>
         </section>
 
         <section id="education">
             <div class="container">
                 <h2>Education</h2>
-                <div class="card">
-                    <h3>Mukesh Patel School of Technology Management and Engineering, NMIMS</h3>
-                    <p>Bachelor's in Technology, Artificial Intelligence (AI)</p>
-                    <p>CGPA: 3.93/4</p>
-                    <p>Expected Graduation: July 2024</p>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Mukesh Patel School of Technology Management and Engineering, NMIMS</h3>
+                        <p>Bachelor's in Technology, Artificial Intelligence (AI)</p>
+                        <p>CGPA: 3.93/4</p>
+                        <p>Expected Graduation: July 2024</p>
+                    </div>
+                    <div class="card">
+                        <h3>Pace Jr. College</h3>
+                        <p>Class 12, HSC</p>
+                        <p>Percentage: 90%</p>
+                        <p>Graduation: March 2020</p>
+                    </div>
+                    <div class="card">
+                        <h3>SaS Billabong High</h3>
+                        <p>Class 10, ICSE</p>
+                        <p>Percentage: 94.83%</p>
+                        <p>Graduation: May 2018</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -62,7 +76,7 @@
                     <span class="skill">HTML</span>
                     <span class="skill">CSS</span>
                     <span class="skill">SQL</span>
-                    <span class="skill">JavaScript (basic)</span>
+                    <span class="skill">JavaScript</span>
                     <span class="skill">TensorFlow</span>
                     <span class="skill">NumPy</span>
                     <span class="skill">Pandas</span>
@@ -71,7 +85,7 @@
                     <span class="skill">OpenCV</span>
                     <span class="skill">Keras</span>
                     <span class="skill">ReactJs</span>
-                    <span class="skill">Django (basic)</span>
+                    <span class="skill">Django</span>
                     <span class="skill">Langchain</span>
                     <span class="skill">PyTorch</span>
                     <span class="skill">PySpark</span>
@@ -82,14 +96,24 @@
         <section id="experience">
             <div class="container">
                 <h2>Professional Experience</h2>
-                <div class="card">
-                    <h3>Maitri AI</h3>
-                    <p>Intern in Generative AI</p>
-                    <ul>
-                        <li>Working on conversational chatbots using LLM's</li>
-                        <li>Computer Vision for object detection and image captioning</li>
-                        <li>Natural Language Processing for machine translation</li>
-                    </ul>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Maitri AI</h3>
+                        <p>Intern in Generative AI</p>
+                        <ul>
+                            <li>Working on conversational chatbots using LLM's</li>
+                            <li>Computer Vision for object detection and image captioning</li>
+                            <li>Natural Language Processing for machine translation</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Bo&Mitchi</h3>
+                        <p>Front-End Intern</p>
+                        <p>June 2022</p>
+                        <ul>
+                            <li>Worked on React Native Application Front-end.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -99,42 +123,85 @@
                 <h2>Projects</h2>
                 <div class="grid">
                     <div class="card project">
-                        <h3>Conversational Chatbot using LLMs</h3>
-                        <p>Used Llama 2 Chat, QLORA, and RAG to create a chatbot for company-specific questions.
-                            Manually created and fine-tuned the dataset.</p>
+                        <a href="https://github.com/dev02chandan/Yolo8-Object-Detection-and-Counting" target="_blank">
+                            <h3>YOLO v8 Custom Object Detection and Counting</h3>
+                            <p>Developed a dynamic object counting app using YOLOv8 and Streamlit, manually created a
+                                large
+                                dataset and trained the YOLO model for detecting and counting new custom objects.</p>
+                        </a>
                     </div>
                     <div class="card project">
-                        <h3>YOLO v8 Custom Object Detection and Counting</h3>
-                        <p>Developed a dynamic object counting app using YOLOv8 and Streamlit, manually created a large
-                            dataset and trained the YOLO model for detecting and counting new custom objects.</p>
+                        <a href="https://github.com/dev02chandan/FineTuningForTheGPUPoor" target="_blank">
+                            <h3>Fine Tuning for the GPU Poor</h3>
+                            <p>Created a method for fine-tuning large models on low-resource hardware. Manually created
+                                and fine-tuned the dataset.</p>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
-
-
 
         <section id="research">
             <div class="container">
                 <h2>Research Work</h2>
                 <div class="grid">
                     <div class="card research-item">
-                        <h3>EarSiamNet</h3>
-                        <p>Leveraging Siamese Networks and SVM for Ear Biometric Authentication (March, 2024)</p>
+                        <a href="https://drive.google.com/file/d/1Yw7D3h9nGvBIzemB4GmoKM0mWZvdBM8E/view?usp=sharing"
+                            target="_blank">
+                            <h3>EarSiamNet: Siamese Networks for Ear Biometric Authentication</h3>
+                            <p>Developed a novel authentication system using Siamese Networks to leverage the unique
+                                features of human ears for secure and reliable biometric authentication. The study
+                                evaluates
+                                the performance against various environmental conditions, ensuring robustness and high
+                                accuracy.</p>
+                        </a>
                     </div>
                     <div class="card research-item">
-                        <h3>Guiding the Student's Learning Curve</h3>
-                        <p>Augmenting Knowledge Distillation with Insights from GradCAM (March, 2024)</p>
+                        <a href="https://drive.google.com/file/d/10ox9bp9ElS75sdevkCjKZPcQfzqNSMd7/view?usp=sharing"
+                            target="_blank">
+                            <h3>Guiding the Student's Learning Curve: Enhancing Knowledge Distillation</h3>
+                            <p>This research focuses on improving the efficiency of knowledge transfer in AI models
+                                through
+                                augmented Knowledge Distillation techniques. By incorporating insights from GradCAM, the
+                                project aims to refine model training processes, enabling more precise student model
+                                outcomes and faster convergence.</p>
+                        </a>
                     </div>
                     <div class="card research-item">
-                        <h3>Open Set Masked Face Identification system</h3>
-                        <p>Leveraging Computer vision and DL for Biometrics (March 2024)</p>
+                        <a href="https://drive.google.com/file/d/15zZcu3CRqoUea8pJ0riACme9KkBKXDUU/view?usp=sharing"
+                            target="_blank">
+                            <h3>Open Set Masked Face Identification System</h3>
+                            <p>Explores the challenges and solutions in identifying individuals wearing masks using deep
+                                learning techniques. The system adapts to various facial obstructions, enhancing
+                                security
+                                measures in public and private sectors.</p>
+                        </a>
                     </div>
                     <div class="card research-item">
-                        <h3>Grade and Subtype Classification for Glioma Tumors</h3>
-                        <p>Using Clinical and Molecular Mutations (March, 2024)</p>
+                        <a href="https://drive.google.com/file/d/1qnfcXmKlkdnYIiAJjD1k-TpXjXeK2qmu/view?usp=sharing"
+                            target="_blank">
+                            <h3>Grade and Subtype Classification for Glioma Tumors Using Clinical and Molecular Data
+                            </h3>
+                            <p>This pivotal research employs a combination of clinical data and molecular mutations to
+                                develop a predictive model for glioma tumors, aiming at early diagnosis and personalized
+                                treatment plans. The study utilizes advanced machine learning algorithms to analyze and
+                                classify tumor subtypes accurately.</p>
+                        </a>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section id="extra-curricular">
+            <div class="container">
+                <h2>Extracurricular Activities</h2>
+                <ul>
+                    <li>21K marathon runner</li>
+                    <li>Content creator on Instagram and YouTube with over 15,000 followers, raising awareness about
+                        Santana Dharma</li>
+                    <li>Community service through the Serve Out Smiles program, dedicating 20 hours to teaching
+                        underprivileged children</li>
+                </ul>
             </div>
         </section>
     </main>
@@ -143,9 +210,10 @@
         <div class="container">
             <p>Contact: dev02chandan@gmail.com | Phone: 9619075643</p>
             <div class="social-icons">
-                <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/dev-chandan" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/dev02chandan" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/sanatan_dharma_dc" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
             </div>
         </div>
     </footer>
